@@ -5,7 +5,14 @@ public abstract class Cuadrilatero {
     Cuadrilatero() {
     }
 
+    /*
     public int[] getVertices() {
+        //No podemos convertir Punto a int
+        return this.vertices;
+    }
+    */
+
+    public Punto[] getVertices() {
         return this.vertices;
     }
 
